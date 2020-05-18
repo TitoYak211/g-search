@@ -1,9 +1,13 @@
 body {
     font-family: sans-serif;
+    text-align: center;
 }
 
-.center {
-    text-align: center;
+#user {
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
 }
 
 input[type=text] {
@@ -38,6 +42,15 @@ td {
 #nav {
     margin-top: 20px;
     margin-bottom: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 40%;
+    flex: 0 1 40%;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
 }
 
 #nav a {
@@ -45,8 +58,10 @@ td {
     color: black;
     text-decoration: none;
     float: right;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-right: 25px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
 }
 
 .adv-search {
