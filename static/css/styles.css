@@ -37,6 +37,7 @@ td {
     border-radius: 5px;
     padding: 10px 15px;
     font-size: 14px;
+    background-color: #f7f7f7;
 }
 
 #nav {
@@ -79,4 +80,8 @@ td {
     left: calc(50% - 272px/2);
     position: absolute;
     width: 272px;
+}
+
+.form {
+    transform: translateY(240%);
 }
