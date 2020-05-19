@@ -85,3 +85,11 @@ td {
 .form {
     transform: translateY(240%);
 }
+
+.advanced {
+    transform: translateY(80%);
+}
+
+.advanced table {
+    text-align: center;
+}
